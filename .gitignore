@@ -1,0 +1,230 @@
+# Python
+__pycache__/
+*.py[cod]
+*.py~
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+research-graph-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env*
+
+
+# GCP
+.gcloud/
+*.key.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.*.backup
+terraform.tfvars
+terraform/terraform.tfvars
+
+
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# Test cache
+.pytest_cache/
+.coverage
+
+#
+src/*.txt
+tests/*.txt
+*.*~# Jupyter Notebooks
+notebooks/.ipynb_checkpoints/
+notebooks/*.log
+notebooks/*.pyc
+
+# Notebook outputs (optional - you might want to commit some)
+notebooks/*.csv
+notebooks/*.data
+notebooks/*.model
+notebooks/__pycache__/
+
+# Large data files
+notebooks/data/raw/
+notebooks/data/processed/
+*.csv
+*.txt
+*.gz
+*.xml
+*.parquet
+*.json
+
+
+# config auth files
+config/service-account-key.json
+
+*notes.txt
+*notes.md
+
+
+*.*~
+*~
+
+# Editor temp/lint files
+flycheck_*.py
+*.pyc
+__pycache__/
+.flycheck_*
+flycheck_*.py
+
+src/typescript
+
+
+# MODELS
+*.pt
+
+# data dumps
+*.dump# Python
+__pycache__/
+*.py[cod]
+*.py~
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+research-graph-env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env*
+
+
+# GCP
+.gcloud/
+*.key.json
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+*.tfstate.*.backup
+terraform.tfvars
+terraform/terraform.tfvars
+
+
+
+# Logs
+*.log
+
+# Mac
+.DS_Store
+
+# Test cache
+.pytest_cache/
+.coverage
+
+#
+src/*.txt
+tests/*.txt
+*.*~# Jupyter Notebooks
+notebooks/.ipynb_checkpoints/
+notebooks/*.log
+notebooks/*.pyc
+
+# Notebook outputs (optional - you might want to commit some)
+notebooks/*.csv
+notebooks/*.data
+notebooks/*.model
+notebooks/__pycache__/
+
+# Large data files
+notebooks/data/raw/
+notebooks/data/processed/
+*.csv
+*.txt
+*.gz
+*.xml
+*.parquet
+*.json
+
+
+# config auth files
+config/service-account-key.json
+
+*notes.txt
+*notes.md
+
+
+*.*~
+*~
+
+# Editor temp/lint files
+flycheck_*.py
+*.pyc
+__pycache__/
+.flycheck_*
+flycheck_*.py
+
+src/typescript
+
+
+# MODELS
+*.pt
+
+# data dumps
+*.dump
+.ipynb_checkpoints/*

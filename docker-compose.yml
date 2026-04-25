@@ -1,0 +1,20 @@
+services:
+  train:
+    build: .
+    command: python train.py
+    volumes:
+      - .:/app
+
+  demo:
+    build: .
+    command: python demo.py
+    volumes:
+      - .:/app
+
+  notebook:
+    build: .
+    command: jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
