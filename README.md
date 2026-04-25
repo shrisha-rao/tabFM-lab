@@ -9,6 +9,8 @@
 
 Large language models surprised everyone by being able to answer questions they were never explicitly trained on — by *reading examples in context*. Can we do the same for tabular data (CSV files, databases, spreadsheets)? **Yes.** We train a transformer on thousands of *synthetic* classification tasks, and it learns a general algorithm for tabular prediction. At test time, you hand it a few labeled rows and some unlabeled rows, and it predicts labels — **zero fine-tuning, zero gradient steps**. This is a minimal, from-scratch implementation of that idea.
 
+![Tabular FM vs Classical](tabular-fm-vs-classical.png)
+
 ---
 
 ## How It Works — Step by Step
